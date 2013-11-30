@@ -1,6 +1,6 @@
 {
     "docs"      : ["技术文档", "随笔"],
-    "domain_alias" :  ["blogssssssssss.yorick.com"],
+    "domain_alias" :  ["blog.liuyuetong.com"],
      "perpage"   : 10,
     "order"  : "number",
     "title"  : "Yorick's Blog",
