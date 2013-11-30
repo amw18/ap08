@@ -1,3 +1,7 @@
 {
-    "docs"      : ["README.md", "docs"],        
+    "docs"      : ["技术文档", "随笔"],
+    "domain_alias" :  ["blog.yorick.com"],
+     "perpage"   : 10,
+    "order"  : "number",
+    "title"  : "Akira's Blog",
 }
