@@ -1,7 +1,7 @@
 {
     "docs"      : ["技术文档", "随笔"],
-    "domain_alias" :  ["blog.yorick.com"],
+    "domain_alias" :  ["blogssssssssss.yorick.com"],
      "perpage"   : 10,
     "order"  : "number",
-    "title"  : "Akira's Blog",
+    "title"  : "Yorick's Blog",
 }
