@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T03:27:07.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="bDyoPAdi7-Z1S9zNdRP-" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T03:35:35.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="oCFZYWqcS430VAEPJq1I" version="18.0.3" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1422" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="QMPjAonT9QGGnefhxJ4X-3" value="Unzip SAF file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="12" y="98" width="165" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="QMPjAonT9QGGnefhxJ4X-4" value="Load Project Stream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-4" value="Load Project Stream&lt;br&gt;(IConfigurationStream)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="13" y="159" width="165" height="44" as="geometry" />
         </mxCell>
         <mxCell id="QMPjAonT9QGGnefhxJ4X-5" value="Parse scenario table&lt;br&gt;(index.xml)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-4">
@@ -37,11 +37,32 @@
         <mxCell id="77e6c97f196da883-5" value="ITuningProject" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="558" y="20" width="180" height="740" as="geometry" />
         </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-8" value="Load Scenarios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="7.5" y="280" width="165" height="44" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-6" value="ITuningScenario" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="738" y="20" width="180" height="740" as="geometry" />
         </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-9" value="Pre Load sync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="7.5" y="280" width="165" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-10" value="Load path.xml&lt;br&gt;(IBatchcopyScenario)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="7.5" y="342" width="165" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-11" value="Load interfaces.xml&lt;br&gt;(IDeviceCommandAction)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="7.5" y="408" width="165" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-12" value="Load simulator&lt;br&gt;(ISimulatorHelper)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="7.5" y="474" width="165" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-13" value="Load components" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
+          <mxGeometry x="7.5" y="540" width="165" height="44" as="geometry" />
+        </mxCell>
         <mxCell id="77e6c97f196da883-7" value="ITuningComponent" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="918" y="20" width="174" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="QMPjAonT9QGGnefhxJ4X-14" value="Load components" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="4.5" y="540" width="165" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
